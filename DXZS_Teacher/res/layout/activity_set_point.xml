@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.candystudio.android.dxzs.teacher.activity.SetPointActivity" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/set_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+    <Button
+        android:id="@+id/set_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="设点" />
+    <Button
+        android:id="@+id/loc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="定位" />
+    <RelativeLayout 
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    <TextView 
+        android:id="@+id/Tv_x"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="未输入坐标"/>        
+    <TextView
+        android:id="@+id/Tv_y"
+        android:paddingLeft="50dp"
+        android:layout_toRightOf="@id/Tv_x"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="未输入坐标"/>
+        
+    </RelativeLayout>
+    
+
+</RelativeLayout>

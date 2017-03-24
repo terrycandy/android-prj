@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+        <Button
+            android:id="@+id/manu_exam_button"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/exam_btn"
+            android:textSize="24sp" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/manu_setpoint_button"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/set_point_btn"
+            android:textSize="24sp" >
+        </Button>
+        
+                <Button
+            android:id="@+id/manu_setroute_button"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/set_route_btn"
+            android:textSize="24sp" >
+        </Button>
+        
+                                <Button
+            android:id="@+id/manu_pointlib_button"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/point_lib_btn"
+            android:textSize="24sp" >
+        </Button>
+        
+            <Button
+            android:id="@+id/manu_routelib_button"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/route_lib_btn"
+            android:textSize="24sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/login_exit_button"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/exit_btn"
+            android:textSize="24sp" >
+        </Button>
+
+</LinearLayout>

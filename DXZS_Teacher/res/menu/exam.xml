@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_vec_map"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_vec_map"/>
+    
+        <item
+        android:id="@+id/action_rs_img"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_rs_img"/>
+
+</menu>

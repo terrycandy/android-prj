@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.teacherclient.MainActivity" >
+
+    <item
+        android:id="@+id/id_map_comcom"
+        android:showAsAction="never"
+        android:title="普通地图"/>
+    <item
+        android:id="@+id/id_map_site"
+        android:showAsAction="never"
+        android:title="卫星地图"/>
+    <item
+        android:id="@+id/id_map_traffic"
+        android:showAsAction="never"
+        android:title="实时交通（off）"/>
+    <item
+        android:id="@+id/id_map_back"
+        android:showAsAction="never"
+        android:title="回到当前位置"/>
+    <item
+        android:id="@+id/id_normal"
+        android:showAsAction="never"
+        android:title="一般模式"/>
+    <item
+        android:id="@+id/id_following"
+        android:showAsAction="never"
+        android:title="跟随模式"/>
+    <item
+        android:id="@+id/id_campass"
+        android:showAsAction="never"
+        android:title="罗盘模式"/>
+    <item
+        android:id="@+id/id_info"
+        android:showAsAction="never"
+        android:title="考核信息查询"/>
+    <item
+        android:id="@+id/id_grade"
+        android:showAsAction="never"
+        android:title="考核成绩查询"/>
+    <item
+        android:id="@+id/id_standard"
+        android:showAsAction="never"
+        android:title="考核标准设置"/>
+
+</menu>

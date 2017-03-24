@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="user_name"></string>
+    <string name="database_name">dxyy.db</string>
+
+    <integer name="server_port">5222</integer>
+
+    <color name="back_ground">#50f0</color>
+    <color name="text">#000000</color>
+
+    <string name="app_name">定向助手学生端</string>
+    <string name="action_vec_map">矢量地图</string>
+    <string name="action_rs_img">遥感影像</string>
+    <string name="login_tip">欢迎使用定向助手\n请登录……</string>
+    <string name="username_txt">4321</string>
+    <string name="passwd_txt">123456</string>
+    <string name="save_btn">保存</string>
+    <string name="login_btn">登录</string>
+    <string name="regis_btn">注册</string>
+    <string name="exam_btn">组织考核</string>
+    <string name="set_point_btn">设控制点</string>
+    <string name="set_route_btn">设计路线</string>
+    <string name="point_lib_btn">控制点库</string>
+    <string name="route_lib_btn">路线点库</string>
+    <string name="exit_btn">退出系统</string>
+    <string name="return_btn">返回</string>
+    <string name="title_activity_login">教员登录</string>
+    <string name="title_activity_config">教员服务器设置</string>
+    <string name="title_activity_register">教员注册</string>
+    <string name="title_activity_exam">组织考核</string>
+    <string name="title_activity_result">考核结果</string>
+    <string name="spinner_prompt">请选择一项</string>
+    <string name="ip_info">IP地址</string>
+    <string name="port_info">端口号</string>
+    <string name="ip">192.168.1.101</string>
+    <string name="port">8521</string>
+    <string name="title_activity_manu">功能菜单</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_set_point">SetPointActivity</string>
+
+</resources>

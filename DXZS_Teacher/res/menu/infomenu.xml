@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.teacherclient.MainActivity" >
+
+ 
+      <item
+        android:id="@+id/id_clear_grade"
+        android:showAsAction="never"
+        android:title="清除考核成绩"/>
+      <item
+        android:id="@+id/id_clear_standard"
+        android:showAsAction="never"
+        android:title="清除考核标准"/>
+ 
+
+</menu>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="24dp"
+        android:text="@string/login_tip"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/login_username_edittext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="4321"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/login_password_edittext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="123456"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/login_login_button"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/login_btn"
+            android:textSize="24sp" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/login_register_button"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/regis_btn"
+            android:textSize="24sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/login_exit_button"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/exit_btn"
+            android:textSize="24sp" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
